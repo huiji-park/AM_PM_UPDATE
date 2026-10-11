@@ -1,0 +1,91 @@
+.gantt_container {
+  margin-bottom: 100px;
+}
+
+.gantt_addTask_container {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+}
+
+.gantt_addTask_container input {
+  padding: 8px 10px;
+  border: 2px solid #5aa1fe;
+  border-radius: 7px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.gantt_addTask_container button {
+  width: 10%;
+  margin-left: 20px;
+  background-color: #166adc;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.gantt_edit_wrapper {
+  margin-top: 20px;
+  display: flex;
+}
+
+.gantt_edit_wrapper input {
+  padding: 8px 10px;
+  border: 2px solid #5aa1fe;
+  border-radius: 7px;
+  font-size: 14px;
+  width: 100%;
+}
+
+.gantt_edit_wrapper button {
+  width: 10%;
+  margin-left: 20px;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.bg_red {
+  background-color: #ae0d37;
+}
+
+.bg_yellow {
+  background-color: #dda423;
+}
+
+.gantt_edit_container {
+  padding: 40px;
+  margin-top: 40px;
+  box-shadow: 0 3px 10px rgb(0, 0, 0, 0.2);
+}
+
+.gantt_edit_container h1 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 50px;
+}
+
+.select_task_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select_task_container button {
+  width: 60px;
+  margin-left: 20px;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+  background-color: #166adc;
+}
+
+.gantt_error_text {
+  margin-top: 30px;
+  font-size: 24px;
+}

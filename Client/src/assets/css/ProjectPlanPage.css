@@ -1,0 +1,26 @@
+.project-plan{
+text-align: center;
+}
+
+.a{
+  color: white;
+  background-color: #166ADC;  
+  border-radius: 10px;
+  width: 100px;
+}
+
+.b{
+  color: white;
+  background-color: #166ADC;  
+  border-radius: 10px;
+  width: 40px;
+  margin-left: 10px;
+}
+
+a{
+  text-decoration: none;
+}
+img {
+  width: 90%;
+  height: auto;
+}

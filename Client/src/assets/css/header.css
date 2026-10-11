@@ -1,0 +1,47 @@
+.child {
+  background-color: #eeeeee;
+  box-shadow: 0 3px 10px #00000033;
+  height: 105px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 30px;
+  border-bottom-left-radius: 35px;
+}
+.parent {
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  background-color: #166adc; /* 부모 요소의 배경색을 빨간색으로 설정 */
+}
+
+.main_logo_img {
+  height: 100px;
+  cursor: pointer;
+}
+
+.login_container {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.login_container p {
+  margin: 0px;
+}
+
+.login_container a {
+  color: black;
+}
+
+.logout:hover {
+  cursor: pointer;
+}
+
+.header_profile_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}

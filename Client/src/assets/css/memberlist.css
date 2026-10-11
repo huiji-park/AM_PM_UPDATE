@@ -1,0 +1,57 @@
+.center{
+  text-align: center;
+}
+
+.container {
+    border-color: #166adc;
+    border-radius: 20px;
+    border-width: 1px;
+    border-style: dashed;
+    height: 380px;
+    /* min-width: 700px; */
+    width: 700px;
+    display: inline-block;
+    text-align: center;
+    overflow-y: auto;   
+  }
+  .list {
+    height: 400px;
+    width: 450px;
+    /* background-color: beige; */
+    margin-top: 15px;
+    margin-left: 25%;
+    text-align: center;
+  }
+  
+  ul {
+    text-align: left;
+    font-size: large;
+  }
+  
+  .member-list{
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+    background-color: #80808021;
+    border-radius: 10px;
+  }
+  .representative {
+    padding-left: 40%;
+  }
+
+  .checkbox {
+    margin-left: 30%;
+    margin-top: 20px;
+  }
+
+  label {
+    margin-left: 15px;
+  }
+  .clickbutton {
+    margin-left: 10px;
+    text-align: center;
+  }
+
+  .btn {
+    margin: 10px;
+  }

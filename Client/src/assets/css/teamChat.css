@@ -1,0 +1,144 @@
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  width: 400px;
+  height: 400px;
+  background-color: rgba(22, 106, 220, 0.7);
+  border: #166adc solid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.xButton {
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+.imgDiv {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  background-color: white;
+  border-radius: 50%;
+}
+.modal img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.textDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nicknameModal {
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.emailModal {
+  color: black;
+  margin-bottom: 10px;
+}
+.chatContainer {
+  border-color: #166adc;
+  border-radius: 20px;
+  border-width: 1px;
+  border-style: dashed;
+  padding: 10px;
+  height: 600px;
+  min-width: 500px;
+}
+#loadData {
+  background-color: #d9d9d9;
+  color: black;
+  width: 150px;
+  border-radius: 20px;
+}
+.msgContainer {
+  height: 500px;
+  overflow: auto;
+}
+.msgContainer::-webkit-scrollbar {
+  width: 10px;
+}
+.msgContainer::-webkit-scrollbar-thumb {
+  background-color: #166adc;
+  border-radius: 10px;
+}
+.inputContainer {
+  text-align: center;
+  margin-top: 20px;
+}
+.inputBox {
+  background-color: #d9d9d9;
+  width: 80%;
+  height: 50px;
+}
+.sendButton {
+  color: white;
+  background-color: #166adc;
+  border-radius: 0;
+  width: 10%;
+  height: 50px;
+  margin-left: 5px;
+}
+.contentContainer {
+  display: flex;
+}
+.contentContainerMy {
+  display: flex;
+  background-color: #d9d9d9;
+}
+.imgContainer {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+img {
+  width: 100%;
+}
+.details {
+}
+.message {
+  max-width: 90%;
+}
+.nickname {
+  font-weight: bold;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.myname {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.date {
+  margin-right: 10px;
+}
+.unread {
+  color: #166adc;
+}
+.routerDiv {
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  position: relative;
+}
+.router {
+  text-decoration: none;
+  color: #166adc;
+  font-weight: bold;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

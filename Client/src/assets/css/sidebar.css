@@ -1,0 +1,45 @@
+#sidebar_container {
+  background-color: #166adc;
+  padding-top: 15px;
+  border-top-right-radius: 35px;
+
+  position: sticky;
+  top: 20px;
+  left: 0;
+  height: 100vh;
+  z-index: 1000;
+  margin-top: 105px;
+
+}
+.q{
+  color : white;
+  padding-right: 15px;
+  text-align : right;
+  
+}
+
+.p {
+  color: white;
+  padding-left: 15px;
+  margin: 0px 0px 0px;
+}
+
+.f {
+  color: white;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.v-navigation-drawer__content::-webkit-scrollbar {
+  display: none !important;
+}
+
+.v-list .v-list-item--nav {
+  margin : 0px 0px 0px;
+}
+
+
+.v-navigation-drawer__content {
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+}

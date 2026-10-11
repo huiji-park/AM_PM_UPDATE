@@ -1,0 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.alert {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  min-width: 50%;
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  color: rgb(20, 15, 15);
+  background-color: white;
+  border-radius: 8px;
+  transform: translateX(-50%);
+  box-shadow: 0 0px 30px rgba(8, 112, 184, 0.7);
+  padding: 30px;
+  height: 85vh;
+}
+
+.alert_title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.black_bg {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  opacity: 0.5;
+}
+
+.alert_btn {
+  border: none;
+  border-radius: 4px;
+  padding: 8px 14px;
+  cursor: pointer;
+  background-color: #166adc;
+  padding: 10px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+
+.display_none {
+  display: none;
+}
+
+.input_container {
+  width: 100%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+}
+
+.input_container input {
+  padding: 8px 10px;
+  border: 2px solid #5aa1fe;
+  border-radius: 7px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.input_container label {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 25px;
+}
+
+.input_container textarea {
+  padding: 8px 10px;
+  border: 2px solid #5aa1fe;
+  border-radius: 7px;
+  resize: none;
+  min-height: 50%;
+}
+
+.close_btn {
+  padding: 8px 16px;
+  color: white;
+  font-weight: 600;
+  background-color: #166adc;
+  border-radius: 7px;
+  resize: none;
+}
+
+.top_btn_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bg_red {
+  background-color: #ae0d37;
+  margin-left: 20px;
+}
+
+.bg_yellow {
+  background-color: #dda423;
+}
+
+.mb20 {
+  margin-bottom: 30px;
+}
+
+.modifiers_text {
+  font-size: 18px;
+  font-weight: bold;
+}
